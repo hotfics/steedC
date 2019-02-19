@@ -24,12 +24,21 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="bitboard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="steedC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bitboard.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
