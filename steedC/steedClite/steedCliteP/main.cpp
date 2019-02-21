@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include"types.h"
 #include"bitboards.h"
 int main(int argc, char **argv)
 {
 	printf("hello world\n");
-	Bitboard b=87;
+	uint64_t b=87ull;
 	printf("%d\n",popcount(b));
+    printBitboard(b);
 	return 0;
 }
